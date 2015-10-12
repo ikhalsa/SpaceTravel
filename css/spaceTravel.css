@@ -1,0 +1,586 @@
+body {
+	margin: 0;
+	font-family: "Oswald", 'Trebuchet MS', Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(../font/FontAwesome.otf);
+}
+
+.border {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 100%;
+	height: 1400px;
+
+}
+
+.display {
+	background-color: white;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 3%;
+	height: 1362px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	position: absolute;
+}
+
+header img {
+	width: 15%;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+header h1 {
+	font-weight: 400;
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+}
+
+header h1 span {
+	color: #FF6600;
+}
+
+.tagline {
+	font-weight: 300;
+	text-align: center;
+	font-size: 28px;
+	margin-top: -10px;
+	margin-bottom: 5px;
+	color: #b3b8ba;
+}
+
+nav {
+	height: 70px;
+	width: 95%;
+	background-color: #b3b8ba;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.navBar {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 22px;
+
+}
+
+.navBar a {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding: 22px 50px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	margin: 0;
+}
+
+.navBar a:hover {
+	background-color: #0a243b;
+	height: 20px;
+	color: #b3b8ba;
+}
+
+.main {
+	width: 95%;
+	height: 300px;
+	background: url(../img/stars.jpg) no-repeat;
+	background-size: cover;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+.title h1 {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 70px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-variant: small-caps;
+}
+
+.title p {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	letter-spacing: .02em;
+}
+
+.title p span {
+	font-weight: 400;
+	color: #FF6600;
+}
+
+.title a {
+	text-decoration: none;
+	display: block;
+	margin: 10px auto;
+	color: black;
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+	padding-top: 2px;
+	border-radius: 20px;
+	background-color: white;
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.title a:hover {
+	background-color: #FF6600;
+	color: white;
+}
+
+.astro {
+	width: 95%;
+	height: 462px;
+	margin: auto;
+	margin-top: -30px;
+}
+
+.astro h2 {
+	text-align: center;
+	color: #0a243b;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: .5em;
+	margin-bottom: -5px;
+}
+
+.astro {
+	text-align: justify;
+	}
+
+.astro > div {
+	width: 22%; 
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	border: 1px solid #b3b8ba;
+	border-radius: 10px;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   	-webkit-box-shadow: inset 0 0 10px #000000;
+   	box-shadow:         inset 0 0 10px #000000;
+}
+
+.astro:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+    }
+
+.col img {
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.col h3 {
+	text-align: center;
+	font-weight: 700;
+	margin: auto;
+	font-size: 25px;
+	color: #0a243b;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+}
+
+.col p {
+	font-weight: 300;
+	margin: 0 10px;
+}
+
+.col a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 5px auto 0 auto;
+	width: 100px;
+	height: 20px;
+	padding: 10px;
+	padding-top: 0;
+	border-radius: 5px;
+	color: black;
+	background-color: #b3b8ba;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.col a:hover {
+	background-color: #0a243b;
+	height: 20px;
+	color: #b3b8ba;
+}
+.information {
+	width: 95%;
+	height: 215px;
+	top: 20px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.info {
+	width: 250px; 
+	height: 165px;
+	margin: 0 17px;
+	padding-top: 25px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	text-align: center;
+}
+
+.info a {
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	font-family: FontAwesome;
+	text-decoration: none;
+	font-size: 50px;
+	border: 1px solid #FF6600;
+	border-radius: 50%;
+	color: #FF6600;	
+}
+
+.info a:hover {
+	background-color: #FF6600;
+	color: white;
+}
+
+.info h2 {
+	font-weight: 300;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: .07em;
+	margin-bottom: 0;
+}
+
+.info p {
+	font-weight: 300;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: .07em;
+	margin: 0;
+	color: #4D4D4D;
+}
+
+.connect {
+	width: 92.1%;
+	height: 100px;
+	background-color: #b3b8ba;
+	padding: 0px 50px;
+}
+
+.con {
+	width: 300px;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 0 20px;
+	margin: 0 22px;
+}
+
+
+.con h3 {
+	margin-bottom: 10px;
+	font-weight: 300;
+	letter-spacing: .3em;
+}
+
+.con a {
+	font-family: FontAwesome;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	margin-right: 15px;
+	margin-top: 0;
+}
+
+.con a:hover {
+ 	color: #FF6600;
+}
+
+.con input[type=email] {
+	width: 210px;
+	height: 20px;
+	margin-top: -10px;
+}
+
+.con button {
+	width: 80px;
+	height: 27px;
+	padding: 5px 0;
+	background-color: #0a243b;
+	color: white;
+	cursor: pointer;
+}
+
+.list {
+	height: 20px;
+	text-align: left;
+}
+
+.list a {
+	padding-left: 2px;
+	text-align: right;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+.footer {
+	width: 100%;
+	height: 30px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+	display: inline-block;
+	background-color: #0a243b;
+	color: #b3b8ba;
+	letter-spacing: .1em;
+}
+
+.footer a{
+	text-decoration: none;
+	font-weight: 300;
+	color: #b3b8ba;
+	letter-spacing: .1em;
+}
+
+.footer a:hover {
+	color: #FF6600;
+}
+
+/*responsive quary iPhone 6 Plus*/
+
+@media (max-width: 415px) {	
+
+.border {
+	height: 2490px;
+	}
+
+.display {
+	height: 2452px;
+}
+
+header img {
+	width: 50%;
+}
+
+nav {
+	display: none;
+
+}
+
+.main {
+	height: 295px;
+	width: 100%;
+}
+
+.title h1 {
+	font-size: 65px;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.title p {
+	font-size: 27px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.astro {
+	width: 95%;
+	height: 1900px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.astro h2 {
+	color: #0a243b;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.astro div {
+	width: 100%; 
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.col a {
+	width: 125px;
+	padding-top: 5px;
+}
+
+.information {
+	display: none;
+}
+
+.list,
+.email {
+	display: none;
+}
+
+.connect {
+	width: 95%;
+	padding: 0 11px;
+}
+
+.social {
+	width: 95%;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.con a {
+	font-size: 40px;
+	margin-right: 22px;
+}
+}
+
+@media (max-width: 321px) {	
+
+.border {
+	height: 2490px;
+	}
+
+.display {
+	height: 2452px;
+}
+
+header img {
+	width: 50%;
+}
+
+nav {
+	display: none;
+
+}
+
+.main {
+	height: 295px;
+	width: 100%;
+}
+
+.title h1 {
+	font-size: 65px;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.title p {
+	font-size: 27px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.astro {
+	width: 95%;
+	height: 1900px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.astro h2 {
+	color: #0a243b;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.astro div {
+	width: 100%; 
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.col a {
+	width: 125px;
+	padding-top: 5px;
+}
+
+.information {
+	display: none;
+}
+
+.list,
+.email {
+	display: none;
+}
+
+.connect {
+	width: 95%;
+	padding: 0 11px;
+}
+
+.social {
+	width: 95%;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.con a {
+	font-size: 40px;
+	margin-right: 22px;
+}
+}
+
+/*responsive quary iPhone 4*/
+
+@media (max-width: 321px) {	
+
+.border {
+	height: 2290px;
+	}
+
+.display {
+	height: 2252px;
+}
+
+
+.main {
+	height: 225px;
+}
+
+.title h1 {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.title p {
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.astro {
+	width: 95%;
+	height: 1900px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.astro h2 {
+	font-size: 25px;
+}
+}
+
